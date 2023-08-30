@@ -17,7 +17,7 @@
     "*.{js,jsx,ts,tsx}": [
       "yarn lint:fix",
       "yarn prettier:check",
-      
+      "yarn lint-prettier",
       "git add"
     ]
   },
